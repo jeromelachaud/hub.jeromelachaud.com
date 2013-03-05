@@ -1,6 +1,6 @@
 body {	
 /*	background: url('http://subtlepatterns.com/patterns/dark_wood.png') repeat;*/
-	background: url('./img/tileable_wood_texture.png') repeat;
+	background: url('../img/tileable_wood_texture.png') repeat;
 	background-color: white;
 	margin: 0;
 	padding: 0;
@@ -53,7 +53,7 @@ div[id^="frame-content-"]{
 	position:relative; 
 	width:200px; 
 	height:200px;
-	background: url('./img/clouds.jpg');
+	background: url('../img/clouds.jpg');
 }
 
 #frame {
@@ -63,7 +63,7 @@ div[id^="frame-content-"]{
 	position:relative; 
 	width:228px; 
 	height:216px; 
-	background: url('./img/framed.png');
+	background: url('../img/framed.png');
 }
 
 
