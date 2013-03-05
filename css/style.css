@@ -1,0 +1,69 @@
+body {	
+/*	background: url('http://subtlepatterns.com/patterns/dark_wood.png') repeat;*/
+	background: url('./img/tileable_wood_texture.png') repeat;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'font-jach';
+	src:url('fonts/font-jach.eot');
+	src:url('fonts/font-jach.eot?#iefix') format('embedded-opentype'),
+		url('fonts/font-jach.svg#font-jach') format('svg'),
+		url('fonts/font-jach.woff') format('woff'),
+		url('fonts/font-jach.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+.icon {
+	z-index:200; 
+	font-family: 'font-jach';
+	font-style: normal;
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	font-size: 10em;
+	display: inline-block; /* Fix for clickability issue in WebKit */
+	text-align: center;
+}
+
+a {
+	text-decoration: none; 
+	color: rgba(255, 255, 255, 0.40);
+/*	color: rgba(56, 56, 56, 0.60);*/
+	text-shadow: 2px 2px 20px rgba(255, 255, 255, 0.6);
+}
+
+a:hover {text-shadow: none;}
+a:hover.lastfm{color:#D51007;}
+a:hover.twitter{color:#4099FF;}
+a:hover.github{color:#ffc09f;}
+a:hover.linkedin{color:#0073b2;}
+
+
+div[class^="slot-"] {text-align: center;min-height: 260px; max-height: 160px;}
+
+div[id^="frame-content-"]{
+	margin: 0 auto;
+	z-index:0; 
+	position:relative; 
+	width:200px; 
+	height:200px;
+	background: url('./img/clouds.jpg');
+}
+
+#frame {
+	top:-207px; 
+	margin: 0 auto;
+	z-index:1; 
+	position:relative; 
+	width:228px; 
+	height:216px; 
+	background: url('./img/framed.png');
+}
+
+

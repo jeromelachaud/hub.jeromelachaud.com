@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<title>Jerome Lachaud :: Links</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>	
+	<!--[if lt IE 9 ]><link rel="stylesheet" href="./css/720_grid.css" type="text/css"><![endif]-->
+ 	<link rel="stylesheet" href="./css/320_grid.css" type="text/css" media="screen and (min-width: 320px)">
+ 	<link rel="stylesheet" href="./css/720_grid.css" type="text/css" media="screen and (min-width: 720px)">
+	<link rel="stylesheet" href="./css/986_grid.css" type="text/css" media="screen and (min-width: 986px)">
+	<link rel="stylesheet" href="./css/1236_grid.css" type="text/css" media="screen and (min-width: 1236px)" >
+  	<link rel="stylesheet" href="./css/style.css" type="text/css" media="all">
+</head>
+<body>
+	<div class="grid">
+		<div class="row">
+			<div class="slot-0-1-2-3-4-5-6"><img src="./img/jerome.png" title="Jerome Lachaud">
+			</div>
+		</div>
+		<div class="row">
+			<div class="slot-6">
+				<div id="frame-content-g"></div>
+				<div id="frame">
+					<span aria-hidden="true" class="icon">
+						<a href="https://github.com/jeromelachaud" title="GitHub Jerome Lachaud" class="github">g</a>
+					</span>
+				</div>
+			</div>
+			<div class="slot-7">
+				<div id="frame-content-t"></div>
+				<div id="frame">
+					<span aria-hidden="true" class="icon">
+						<a href="http://www.linkedin.com/in/jeromelachaud" title="LinkedIn Jerome Lachaud" class="linkedin">l</a>
+					</span>
+				</div>
+			</div>
+			<div class="slot-8">
+				<div id="frame-content-t"></div>
+				<div id="frame">
+					<span aria-hidden="true" class="icon">
+						<a href="https://twitter.com/JeromeLachaud" title="Twitter Jerome Lachaud" class="twitter">t</a>
+					</span>
+				</div>
+			</div>
+			<div class="slot-9">
+				<div id="frame-content-a"></div>
+				<div id="frame">
+					<span aria-hidden="true" class="icon">
+						<a href="http://www.lastfm.fr/user/PatBateman75" title="GitHub Jerome Lachaud" class="lastfm">a</a>
+					</span>
+				</div>	
+			</div>
+		</div>
+	</div> <!-- / .grid -->
+
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+	<script src="js/jquery.motio.min.js"></script>
+	<script>
+		jQuery(function($){
+			$("[id^=frame-content]").motio({
+				speed: 20,
+				paused: 0,
+				fps: 40
+			});
+		});
+	</script>
+</body> 
+</html>
