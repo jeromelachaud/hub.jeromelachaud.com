@@ -1,7 +1,7 @@
 hub.jeromelachaud.net/
 ==========
 
-The live version of the repository is page located at **[hub.jeromelachaud.net](http://hub.jeromelachaud.net/)**
+The live version of the repository is page located at **[http://hub.jeromelachaud.net](http://hub.jeromelachaud.net/)**
 
 It contains links to different profils and pages of yours truly on the Interweb.
 
