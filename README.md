@@ -1,7 +1,7 @@
-hub.jeromelachaud.net/
+hub.jeromelachaud.com/
 ==========
 
-The live version of this project is located at **[http://hub.jeromelachaud.net](http://hub.jeromelachaud.net/)**
+The live version of this project is located at **[http://hub.jeromelachaud.com](http://hub.jeromelachaud.com/)**
 
 It contains links to different profils and pages of yours truly on the Interweb.
 
